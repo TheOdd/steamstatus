@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/TheOdd/steamstatus",
   "author": "TheOdd",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "got": "^7.1.0",
+    "ora": "^1.3.0"
+  }
 }
