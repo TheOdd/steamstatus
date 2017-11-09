@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const ora = require('ora')
 const got = require('got')
 const chalk = require('chalk')
