@@ -1,0 +1,9 @@
+{
+  "name": "steamstatus",
+  "version": "0.0.1",
+  "description": "A small CLI app to check Steam server status via steam gauge API",
+  "main": "index.js",
+  "repository": "https://github.com/TheOdd/steamstatus",
+  "author": "TheOdd",
+  "license": "MIT"
+}
