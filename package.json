@@ -5,6 +5,14 @@
   "main": "index.js",
   "repository": "https://github.com/TheOdd/steamstatus",
   "author": "TheOdd",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ping",
+    "measure",
+    "check",
+    "steam"
+  ],
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.0",
