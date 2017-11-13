@@ -34,7 +34,7 @@ const getConsoleResult = (online, name, obj) => {
 }
 
 const fetchSpin = ora('Fetching steam data').start()
-var community,
+let community,
     store,
     userAPI,
     responseObj
@@ -42,7 +42,7 @@ var community,
 got('steamgaug.es/api/v2')
 .then(response => {
   fetchSpin.stop()
-  var responseObj = JSON.parse(response.body)
+  const responseObj = JSON.parse(response.body)
   community = !!responseObj.SteamCommunity.online
   store = !!responseObj.SteamStore.online
   userAPI = !!responseObj.ISteamUser.online
