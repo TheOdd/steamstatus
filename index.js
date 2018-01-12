@@ -56,5 +56,6 @@ got('steamgaug.es/api/v2')
   console.log(userAPI)
 })
 .catch(error => {
+  fetchSpin.stop()
   console.log(chalk.red('An error has occurred while fetching the data. Either SteamGaug.es is down, or you\'re not connected to the internet.'))
 })
